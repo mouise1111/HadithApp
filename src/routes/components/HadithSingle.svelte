@@ -19,6 +19,6 @@
             <span>{hadith.hadithEnglish}</span>
         </div>
     </div>
-    <button class="btn px-2" on:click={() => addToFavorites(hadith)}>Add to Favorites ❤️</button>
+    <button class="btn btn-primary" on:click={() => addToFavorites(hadith)}>Add to Favorites ❤️</button>
 </div>
 {/each}
