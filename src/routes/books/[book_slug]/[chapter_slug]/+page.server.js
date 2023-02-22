@@ -6,7 +6,7 @@ export function load({ fetch, params }) {
 			`${baseURL}/hadiths?apiKey=${apiKey}&chapter=${chapter_slug}&book=${book_slug}`
 		);
 		const data = await resp.json();
-		return data.hadiths;
+		return data.hadiths.data;
 	};
 
 	return {
