@@ -15,6 +15,9 @@
 		hadith_values = value;
 	});
 
+	function removeFromFavorites(hadith) {
+		// remove hadith from favorites
+	}
 	
 </script>
 <h1 class="text-5xl font-bold text-center m-3">Hadith.com</h1>
@@ -25,7 +28,7 @@
         <span class="font-bold">Narrator:</span>
         <span>{hadith.englishNarrator}</span>
     </div>
-    <button class="btn px-2" on:click={() => addToFavorites(hadith)}>Add to Favorites ❤️</button>
+    <button class="btn btn-secondary" on:click={() => removeFromFavorites(hadith)}>Remove from Favorites</button>
 </div>
 {/each}
 
