@@ -21,7 +21,7 @@
 	
 </script>
 <h1 class="text-5xl font-bold text-center m-3">Hadith.com</h1>
-{#each hadith_values as hadith }
+<!-- {#each hadith_values as hadith }
 <div class="px-4 py-6 space-y-4 my-2 bg-white rounded-lg">
     <div class="flex space-x-2 items-center">
         <span class="font-bold">{hadith.hadithNumber}</span>
@@ -30,7 +30,8 @@
     </div>
     <button class="btn btn-secondary" on:click={() => removeFromFavorites(hadith)}>Remove from Favorites</button>
 </div>
-{/each}
+{/each} -->
+<!-- <HadithSingle hadith={hadith_values} addToFavorites={null}/> -->
 
 <!-- <div class="mockup-window border border-base-300 w-3/4 p-3 px-5">
 	<div class="flex justify-center px-4 py-16 border-t border-base-300">
