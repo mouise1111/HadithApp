@@ -7,6 +7,7 @@
 {#each books.books as book}
 	<h1>{book.bookName}</h1>
 {/each} -->
+<h1 class="text-5xl font-bold text-center m-3">Book collection</h1>
 
 <section class="px-4 py-8">
 	<div class="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
