@@ -1,4 +1,6 @@
 <h1>Hadith App</h1>
+
+<a href="https://hadith-app-virid.vercel.app/" style="font-size:3em">Click here to see live preview. 🔴</a>
 <p>
       This is a Hadith app built with SvelteKit. The app provides users with a
       collection of Hadiths and allows them bookmark their
