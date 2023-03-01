@@ -1,44 +1,82 @@
-# what can the app do?
+<h1>Hadith App</h1>
+<p>
+      This is a Hadith app built with SvelteKit. The app provides users with a
+      collection of Hadiths and allows them bookmark their
+      favorite Hadiths.
+</p>
 
-- display all the hadith books with their chapters
-- display hadiths for each chapter
-- add hadiths to favorites and show that in the home page, also on top of the chapter page
+<h2>Getting Started</h2>
+    <h3>Prerequisites</h3>
+    <p>
+      To run this app, you'll need to have Node.js and npm (or yarn) installed on
+      your system.
+    </p>
+    
+    
+ <h3>Installing</h3>
+    <p>Clone this repository:</p>
+    <pre><code>git clone https://github.com/your-username/hadith-app.git</code></pre>
+    <p>Navigate to the project directory:</p>
+    <pre><code>cd hadith-app</code></pre>
+    <p>Install the dependencies:</p>
+    <pre><code>npm install</code></pre>
+    <p>or</p>
+    <pre><code>yarn install</code></pre>
+    
+ <h3>Running the app</h3>
+    <p>
+      To run the app in development mode, run the following command:
+    </p>
+    <pre><code>npm run dev</code></pre>
+    <p>or</p>
+    <pre><code>yarn dev</code></pre>
+    <p>This will start the app on <a href="http://localhost:3000">http://localhost:3000</a>.</p>
+    
+  <h3>Building the app</h3>
+ <p>
+      To build the app for production, run the following command:
+    </p>
+    <pre><code>npm run build</code></pre>
+    <p>or</p>
+    <pre><code>yarn build</code></pre>
+    <p>This will create an optimized production build in the build directory.</p>
+   <h3>Running the production build</h3>
+    <p>
+      To run the production build locally, run the following command:
+    </p>
+    <pre><code>npm run start</code></pre>
+    <p>or</p>
+    <pre><code>yarn start</code></pre>
+    <p>This will start the app on <a href="http://localhost:3000">http://localhost:3000</a>.</p>
+   <h2>Features</h2>
+    <ul>
+      <li>
+        Search: Users can search for Hadiths by entering keywords in the search
+        bar.
+      </li>
+      <li>
+        Filter: Users can filter Hadiths by Book, Chapter, and/or Section.
+      </li>
+      <li>
+        Bookmarks: Users can bookmark their favorite Hadiths and access them
+        later from the Favorites page.
+      </li>
+    </ul>
+    <h2>Built With</h2>
+        <ul>
+            <li><a href="https://kit.svelte.dev/">SvelteKit</a></li>
+            <li><a href="https://tailwindcss.com/">Tailwind CSS</a></li>
+            <li><a href="https://daisyui.com/">DaisyUI</a></li>
+        </ul>
 
-# create-svelte
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+    
+  <h2>License</h2>
+        <p>This project is licensed under the MIT License - see the <a href="LICENSE">LICENSE</a> file for details.</p>
 
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+<h2>Acknowledgments</h2>
+        <ul>
+            <li><a href="https://kit.svelte.dev/docs">SvelteKit documentation</a></li>
+            <li><a href="https://tailwindcss.com/docs">Tailwind CSS documentation</a></li>
+            <li><a href="https://daisyui.com/docs">DaisyUI documentation</a></li>
+   
